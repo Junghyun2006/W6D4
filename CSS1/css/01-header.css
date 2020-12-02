@@ -1,0 +1,31 @@
+/* PHASE 1: Header */
+
+body {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.header { 
+    background-color: red;
+    color: white;
+    border-bottom: 1px solid gray;
+
+}
+
+.header-nav {
+    margin: 0 auto;
+    width: 900px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.header-logo {
+    float: left;
+    border-right: 1px solid gray;
+    font-weight: 700;
+}
+
+.header-list {
+    float: right;
+}
