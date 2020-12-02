@@ -70,11 +70,11 @@ class SQLObject
   def self.my_attr_accessor(*names)
     names.each do |name|
       define_method(name) do 
-        @attributes[name.to_sym]
+        self.attributes[name.to_sym]
       end 
     
       define_method(name.to_s+"=") do |input = nil|
-        @attributes[name.to_sym] = input
+        self.attributes[name.to_sym] = input
       end
     end
     nil
